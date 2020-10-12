@@ -1,0 +1,6 @@
+{
+  "ffmpegPath": "C:\\Temp\\FfMpeg\\windows\\ffmpeg",
+  "streamingRoot" : "C:\\Temp\\stream",
+  "sourceFolder" : "C:\\Temp\\stream",
+  "comment": "Raw file are stored in sourceFolder, streaming media are stored in streaming root, ffmpegpath contains executible"
+}
