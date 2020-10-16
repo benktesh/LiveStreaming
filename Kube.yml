@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: livestreaming
-        image: livestreaming.azurecr.io/livestreaming:v1
+        image: livestreaming:local
         imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
@@ -33,4 +33,4 @@ spec:
     app: livestreaming
   ports:
     - port: 9999
-  type: LoadBalancer
+  type: NodePort

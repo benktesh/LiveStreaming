@@ -61,7 +61,7 @@ public class HttpServer extends AbstractVerticle {
 		try {
 			InetAddress addr;
 			addr = InetAddress.getLocalHost();
-			String hostname = addr.getHostAddress();
+			String hostname = addr.getHostName();
 			systemInfo.put("hostname", hostname);
 			return systemInfo;
 		} catch (UnknownHostException ex) {
